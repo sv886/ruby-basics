@@ -1,10 +1,9 @@
 def questions(number, question)
 
-  puts "This is question number #{number.to_s}."
-  puts "The question is '#{question}'."
+  puts "#{number.to_s}. #{question}"
 
 end
 
-questions(1, "where's the money, lebowski?")
+questions(1, 2+2 == 4)
 
-questions(2, "where is it, shit head?")
+questions(2, 5 > 4)
